@@ -141,8 +141,7 @@
     "ax.set_xlim(left=0)\n",
     "ax.set_ylim(bottom=0)\n",
     "\n",
-    "ax.legend()\n",
-    ""
+    "ax.legend()\n"
    ]
   },
   {
@@ -357,11 +356,9 @@
    ]
   },
   {
+<<<<<<< HEAD
    "cell_type": "markdown",
-   "metadata": {},
-   "source": []
-  },
-  {
+=======
    "cell_type": "code",
    "execution_count": 19,
    "metadata": {},
@@ -503,6 +500,13 @@
     "\n",
     "ax.legend()"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+>>>>>>> 0084e295af7cfb43f2ee99a63f2d8a36ce2de28c
+   "metadata": {},
+   "source": []
   },
   {
    "cell_type": "code",
@@ -784,5 +788,5 @@
   }
  },
  "nbformat": 4,
- "nbformat_minor": 2
+ "nbformat_minor": 4
 }
