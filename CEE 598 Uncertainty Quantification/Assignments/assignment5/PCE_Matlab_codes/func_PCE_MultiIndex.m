@@ -43,12 +43,15 @@ for m1=0:p
         if d~=1
             for m2=0:m1-1
                 newindex=newindex+factorial(m2+d-2)/factorial(m2)/factorial(d-2);
+                disp(func_PCE_MultiIndex(newindex+j-index_p, d-1))
                 n(2:end)=func_PCE_MultiIndex(newindex+j-index_p, d-1);
             end
         end
         break;
     else
         index_p = index_pp;
+        disp("indexp")
+        disp(index_p)
         index_pp=index_pp+factorial(m1+1+d-2)/factorial(m1+1)/factorial(d-2);
     end
 end
