@@ -40,6 +40,7 @@ n=zeros(1,d);
 for m1=0:p
     if j<index_pp
         n(1)=p-m1;
+        disp(n)
         if d~=1
             for m2=0:m1-1
                 newindex=newindex+factorial(m2+d-2)/factorial(m2)/factorial(d-2);
