@@ -6,6 +6,7 @@ a(2:p+1 ,1:p)= eye(p,p);
 P=p+1;
 pmat =[];
 pmat (1:p ,1)=1;
+disp(pmat)
 for k=2:d
     L=P;
     for i=1:p
