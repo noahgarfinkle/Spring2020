@@ -14,9 +14,11 @@ for k=2:d
     end
     for j=1:p
         for m=L- pmat (j,k )+1: L
+            disp(m)
             P=P+1;
             a(P ,1:p)=a(m ,1:p);
             a(P,j)=a(P,j)+1;
         end
     end
 end
+disp(pmat)
